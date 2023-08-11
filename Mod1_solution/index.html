@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+    <head>
+         <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title>Media Queries</title>
+         <style>
+            *{
+                box-sizing: border-box;
+                
+                margin: 0;
+                
+                
+            } 
+
+            h1 {
+                margin-bottom: 15px;
+                font-size: larger;
+                text-align: center;
+            }
+
+            body{
+               background-color: white;
+               margin:0;
+               float:left;
+               
+
+            }
+
+            #box1
+            {
+
+                background-color: white;
+                padding: 5px;
+                float:left;
+                
+                
+
+            }
+
+            #box2
+            {
+
+                background-color: white;
+                padding: 5px;
+                float:left;
+               
+                
+
+            }
+
+            #box3
+            {
+
+                background-color: white;
+                padding: 5px;
+                float:left;
+                
+                
+
+            }
+
+            div#content1
+            {
+                background-color: gray;
+                border: solid black;
+                position: relative;
+                color: black;
+                
+                }
+ p {
+  width: 30%;
+  height: 12%;
+ 
+  border:  solid black;
+  margin-bottom: 2px;
+}
+#p1 {
+  background-color: #A52A2A;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 0px;
+  left: 70%;
+  
+}
+
+#p2 {
+  background-color: yellow;
+  color: black;
+  position: relative;
+  text-align: center;
+  top: 0px;
+  left: 70%;
+  
+}
+
+#p3 {
+  background-color: pink;
+  color: black;
+  position: relative;
+  text-align: center;
+  top: 0px;
+  left: 70%;
+}
+
+            
+
+            @media (min-width: 992px) and (max-width: 1199px)
+            {
+                #box1{
+                    width: 33.33%;
+
+                }
+
+                #box2{
+                    width: 33.33%;
+
+                }
+
+                #box3{
+                    width: 33.33%;
+
+                }
+            }
+            
+            @media (min-width: 768px) and (max-width: 991px)
+            {
+                #box1{
+                    width: 50%;
+
+                }
+
+                #box2{
+                    width: 50%;
+
+                }
+
+                #box3{
+                    width: 100%;
+
+                }
+            }
+
+            @media (max-width: 767px)
+            {
+                #box1{
+                    width: 100%;
+
+                }
+
+                #box2{
+                    width: 100%;
+
+                }
+
+                #box3{
+                    width: 100%;
+
+                }
+            }
+         </style>
+    </head>
+
+    <body>
+        <h1>Our Menu</h1>
+
+        <div id="box1">
+            <div id="content1"><p id="p1">beef</p> ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident!</div></div>
+        <div id="box2">
+            <div id="content1"><p id="p2">sushi</p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident!</div></div>       
+        <div id="box3">
+            <div id="content1"><p id="p3">chicken</p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident!</div></div>
+            </body>
+</html>
